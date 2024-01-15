@@ -1,0 +1,128 @@
+body {
+    padding: 7%;
+}
+
+header, #section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 67, 215);
+    color: white;
+    border-radius:28px;    
+}
+
+header {
+    margin-bottom: 2%;
+}
+
+.nav-1 {
+    width: 400px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+  
+nav a {
+    text-decoration: none;
+    color:darkgrey;   
+    font-size: 0.8rem;
+}
+
+header button {
+    border-radius: 35px;
+    width: 11%;
+    height: 32px;
+    font-size: 10px;
+    margin-right: 2%;
+    color: rgb(114, 67, 215);
+    font-weight: bold;
+    background-color: white;
+}
+
+#section-1, #section-2 {
+    margin-bottom: 5%;
+}
+
+.right-part img {
+    width: 82%;
+    border-radius: 36%;
+}
+
+.left-part{
+    margin: 5%;
+}
+
+.left-part h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.button-2 {
+    border-radius: 50px;
+    width: 35%;
+    height: 39px;
+    font-size: 10px;
+    margin-right: 2%;
+    color: rgb(114, 67, 215);
+    font-weight: bold;
+    background-color: white;
+}
+
+.middle-left {
+    display: flex;
+    align-items: center;
+}
+
+.left-botton {
+    border: 1px solid white;
+    width: 32%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.left-botton p {
+    font-size: 0.8rem;
+}
+
+.fake-button {
+    display: flex;
+    justify-content: end;
+    color: whitesmoke;
+}
+
+#section-2 {
+    background-color: rgb(114, 67, 215);
+    color: white;
+    border-radius:28px; 
+}
+
+#section-2 li {
+    list-style: none;
+    
+}
+
+#section-2 ul {
+    display: flex;
+    padding: 2.5% 0% ;   
+    justify-content: space-around;
+
+
+}
+
+#section-3 {
+    text-align: center;
+}
+
+#section-3 h1 {
+    font-size: 2.2rem;
+}
+
+#section-2 a {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
